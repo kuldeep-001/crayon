@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>FE Assessment</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="row">
+
+
+    <div id="carouselExampleCaptions" class="col-lg-8 carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/i1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Taste Studio</h5>
+            <p>Ai powered personlized engine dedicated to understanding human tastes</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/i2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/i3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="content col-lg-4 c1">
+      <img src="images/maya.png" alt="maya" />
+
+      <div class="wrapper wrap">
+
+        <form action="#">
+          <div class="field user" style="margin-bottom:70px;">
+            <div class="input-area">
+              <img src="images/request.png" alt="">
+              <label for="" class="pas">Request for access</label>
+              <input type="text" placeholder="Full Name">
+              <p>Name</p>
+            </div>
+
+            <div class="error error-txt" style="margin-top:-30px;">Name can't be blank</div>
+          </div>
+          <div class="field email" style="margin-bottom:30px;">
+            <div class="input-area">
+              <input type="text" placeholder="@hdfc.com">
+              <p>Email id</p>
+
+            </div>
+
+            <div class="error error-txt">Email can't be blank</div>
+          </div>
+          <div class="field" style="margin-bottom: 0;">
+            <div class="input-area">
+              <textarea name="name" rows="3" cols="40" placeholder="Brief your requirements and approval.." style="padding-top:8px;"></textarea>
+              <p style="margin-top:-105px; margin-left:5px;">Reason for request</p>
+
+            </div>
+
+          </div>
+          <div class="pass-txt">
+            <input type="checkbox" name="" value="Remember me" style="margin-top:70px;">
+            <label for="">send me a email copy</label>
+            <input type="submit" value="Submit" style="margin-left:95px;">
+          </div>
+
+        </form>
+      </div>
+      <div class="crayon">
+        <img src="images/crayon.png" alt="">
+      </div>
+
+    </div>
+    <div class="content col-lg-4 c2 hide">
+      <img src="images/maya.png" alt="maya" />
+
+      <div class="wrapper">
+
+        <form action="#">
+          <div class="field email">
+            <div class="input-area">
+              <img src="images/request.png" alt="">
+              <label for="" class="pas">Request for access</label>
+
+            </div>
+            <div class="msg"></div><br>
+            <br>
+            <br>
+            <div class="" style="font-size:10px; >
+              <p style=" margin-left:0;">You can also write us at <a href="#">admin@maya.ai</a></p>
+            </div>
+
+          </div>
+
+        </form>
+
+      </div>
+      <div class="crayon">
+        <img src="images/crayon.png" alt="">
+      </div>
+    </div>
+
+  </div>
+  <script type="text/javascript" src="request.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>FE Assessment</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="row">
+
+
+    <div id="carouselExampleCaptions" class="col-lg-8 carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/i1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Taste Studio</h5>
+            <p>Ai powered personlized engine dedicated to understanding human tastes</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/i2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/i3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="content col-lg-4 c1">
+      <img src="images/maya.png" alt="maya" />
+
+      <div class="wrapper">
+
+        <form action="#">
+          <div class="field email">
+            <div class="input-area">
+              <img src="images/reset.png" alt="">
+              <label for="" class="pas">Reset your credential</label>
+              <input type="password" placeholder="Credentials">
+              <p>New Password</p>
+
+            </div>
+            <br>
+            <br>
+            <div class="error error-txt">Password can't be blank</div>
+          </div>
+          <br>
+          <div class="field password pass" style="margin-bottom: 0;">
+            <div class="input-area">
+              <input type="password" placeholder="Re-Enter Credentials">
+              <p>Re-Enter Password</p>
+
+            </div>
+            <div class="error error-txt">Re-Enter Password</div>
+          </div>
+          <div class="pass-txt">
+            <input type="submit" value="Submit" style="margin-left:280px;">
+          </div>
+
+        </form>
+      </div>
+      <div class="crayon">
+        <img src="images/crayon.png" alt="">
+      </div>
+
+    </div>
+    <div class="content col-lg-4 c2 hide">
+      <img src="images/maya.png" alt="maya" />
+
+      <div class="wrapper">
+
+        <form action="#">
+          <div class="field email">
+            <img src="images/success.png" alt="">
+            <div class="input-area">
+
+              <label for="" class="pas">Sucessfully updated</label>
+            </div>
+          </div>
+          <div class="msg">Password has been updated successfully. Try login with your new Credential and enjoy power of AI</div>
+          <div class="pass-txt">
+
+            <a href="index.html"><input type="submit" value="Go to login" style="margin-left:0;"></a>
+          </div>
+          <div class="">
+            <p style="margin-left:0; margin-top:0;">
+              Redirecting in 30 sec
+              </p>
+              <script>
+                    var timer = setTimeout(function() {
+                                    window.location='index.html'
+                        }, 30000);
+                </script>
+          </div>
+
+        </form>
+
+      </div>
+      <div class="crayon">
+        <img src="images/crayon.png" alt="">
+      </div>
+
+    </div>
+
+  </div>
+  <script type="text/javascript" src="reset.js"></script>
+</body>
+
+</html>
